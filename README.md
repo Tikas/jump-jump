@@ -18,7 +18,7 @@
 
 ### 如何抓包拿到session_id?
   
-1. 下载最新`charles`。
+1. 下载最新[charles](https://www.charlesproxy.com)。
 2. 启动`charles`。
 3. 在`Proxy Settings`配置中勾上`Enable transparent HTTP proxying`。
 4. 在`SSL Proxying Settings`配置中勾上`Enable SSL Proxying`, 并添加一个空白配置(`*`)。
