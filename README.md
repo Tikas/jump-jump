@@ -2,6 +2,20 @@
 
 **微信小游戏跳一跳作弊**
 
+
+### 使用步骤
+
+1. 下载。
+1. 抓包拿到`session_id`并手动替换`index.js`文件中`session_id`变量的值，参考下方提示。
+2. 安装依赖。
+    ```
+    npm i
+    ```
+3. 运行。
+    ```
+    npm start
+    ```
+
 ### 如何抓包拿到session_id?
   
 1. 下载最新`charles`。
@@ -13,19 +27,7 @@
 6. 启动跳一跳小程序，不用点开始。
 7. 去`charles`里查看抓到的请求,例如`https://mp.weixin.qq.com/wxagame/wxagame_init`路径的请求，请求体里就包含`session_id`。
 
-*使用fiddler抓包也可以。*
-
-### 使用步骤
-
-1. 拿到`session_id`并手动替换`index.js`文件中`session_id`变量的值。
-2. 安装依赖。
-    ```
-    npm i
-    ```
-3. 运行。
-    ```
-    npm start
-    ```
+*使用 fiddler 抓包也可以。*
 
 ### 参考
 - [https://gist.github.com/feix/6dd1f62a54c5efa10f1e1c24f8efc417](https://gist.github.com/feix/6dd1f62a54c5efa10f1e1c24f8efc417)
