@@ -6,7 +6,7 @@
 ### 使用步骤
 
 1. 下载。
-1. 抓包拿到`session_id`并手动替换`index.js`文件中`session_id`变量的值，参考下方提示。
+1. 抓包拿到`session_id`并手动替换`index.js`文件中`session_id`变量的值，参考[如何抓包拿到session_id](https://github.com/yzbubble/jump-jump#如何抓包拿到session_id)。
 2. 安装依赖。
     ```
     npm i
